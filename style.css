@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:  'Oswald', sans-serif;
+    color: #0e1519;
+    box-sizing: border-box;
+}
+
+
+.headerbar {
+    height: 100px;
+    max-width: 1200px;
+    margin: auto;
+/*    object-position: center;*/
+/*    background-color: #3c4a53; opacity: 0.5;*/
+    padding: 30px 30px;
+    
+}
+a.menu_text {
+    display: inline-block;
+    width: 33.33%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+    
+}
+a.menu_text:hover {
+/*    text-decoration: underline;*/
+    background-color: #7da8ae;
+    color: white;
+}
+a.menu-icon {
+    display: inline-block;
+    width: 10%;
+    opacity: 1;
+}
+a.menu-icon:hover {
+    opacity: 0.5;
+    
+    : #bc9695;
+}
+
+
+#main div {
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-image: url("pictures/tlo_04.jpg");
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat; 
+}    
+
+#main h1 {
+    font-size: 50px;
+    letter-spacing: 2mm;
+    font-family: 'Oswald', sans-serif;
+    background-color: white; opacity: 0.7;
+    margin: 0 30%;
+    padding: 20px 20px 0 20px;
+}
+
+#main h2 {
+    font-size: 30px;
+    background-color: white; opacity: 0.7;
+    padding: 0 20px 20px 20px;
+    margin: 0 30%;
+/*    border-top: solid 2px #0e1519;*/
+}
+
+div #left {
+    width: 50%;
+    height: 900px;
+    float: left;
+    padding: 0 20px 20px 0;
+    margin-top: 30px;
+    margin-bottom: 20%;
+    text-align: justify;
+}
+
+div #right {
+    width: 50%;
+    height: 900px;
+    float: left;
+    padding: 0 0 20px 20px;
+    margin-top: 30px;
+    margin-bottom: 20%;
+    text-align: justify;
+}
+
+div#left >img, div#right >img {
+    width: 100%;
+}
+/*wyszukuje kazdy selektor img, ktorego rodzicem jest div#left*/
+
+div#left >img :hover {
+    opacity: 05;
+}
+
+#inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 30px;
+}
+#inner h1 {
+    padding: 80px 0 0 10px;
+    margin-bottom: 80px;
+    margin-right: 70%;
+    font-size: 40px;
+    line-height: 25px;
+    border-bottom: solid 20px #bc9695;
+}
+
+#inner h3 {
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+#inner p {
+    padding: 10px 0;
+    text-align: justify;
+    font-family: 'Quattrocento', serif;
+}
+
+img#ja {
+    width: 25%;
+    float:left;
+    margin: 30px 50px 30px 0;
+    border-radius: 40% 40% 40% 0;
+} 
+footer nav, footer p {
+    background-color: #7da8ae;
+    text-align: center; 
+    color: white;
+    padding: 20px;
+}
